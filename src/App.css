@@ -1,13 +1,53 @@
-html {
+body {
   background-image: url(./pics/leather.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 130vh;
+  margin: 0px;
 }
-
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .App-header {
   color: white;
   text-align: center;
   text-shadow: #52524F;
+  padding-bottom: 2em;
+}
+
+h1 {
+  background-color: #9D0E12;
+  margin-top: 0;
+  font-family: 'Bangers', 'cursive';
+  font-size: 60px;
+  border-radius: 13px;
+}
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-image {
+  border: solid 2px #580000;
+  height: 350px;
+  width: 300px;
+  background-image:url(./pics/crazy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 20px;
+  align-self: center;
+  color: #8D8997;
+  background-color: #252525;
+  border-color: black;
 }
