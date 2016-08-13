@@ -1,19 +1,25 @@
 import React, { Component } from 'react'
 // import smile from './pics/smile.gif'
 import './App.css'
+import SinglePic from './SinglePic'
+import Home from './Home'
 
 class App extends Component {
+  constructor () {
+    super()
+    this.state = {
+      currentScreen: 'Home'
+    }
+  }
   render () {
+    let screen
+    switch (this.state.currentScreen) {
+      case 'Home': screen = <Home />
+        break
+      case 'SinglePic': screen = <SinglePic />
+    }
     return (
-      <div className='App'>
-        <div className='App-header'>
-          <h1>Oh, Look! A picture!</h1>
-        </div>
-        <div className='App-container'>
-          <div className='App-image'></div>
-          <button className='App-button'>↫ Go Back</button>
-        </div>
-      </div>
+      <div>{screen}</div>
     )
   }
 }

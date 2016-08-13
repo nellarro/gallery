@@ -12,9 +12,6 @@ body {
   align-items: center;
 }
 .App-header {
-  color: white;
-  text-align: center;
-  text-shadow: #52524F;
   padding-bottom: 2em;
 }
 
@@ -24,6 +21,9 @@ h1 {
   font-family: 'Bangers', 'cursive';
   font-size: 60px;
   border-radius: 13px;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 3px #52524F;
 }
 
 .App-container {
