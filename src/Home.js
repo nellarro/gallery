@@ -13,6 +13,20 @@ class Home extends Component {
           <div className='Home-image'>
           </div>
         </div>
+        <div className='Home-nav'>
+          <aside className='Home-aside'>
+            <nav>
+              <ul>
+                <li><button>Me</button></li>
+                <li><button>Puddin'</button></li>
+                <li><button>Besties!</button></li>
+                <li><button>My Babies.</button></li>
+                <li><button>Work</button></li>
+                <li><button> Misc.</button></li>
+              </ul>
+            </nav>
+          </aside>
+        </div>
       </div>
     )
   }
