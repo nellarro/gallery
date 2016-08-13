@@ -1,0 +1,13 @@
+html {
+  background-image: url(./pics/leather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.App-header {
+  color: white;
+  text-align: center;
+  text-shadow: #52524F;
+}
