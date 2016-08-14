@@ -3,7 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 130vh;
+  height: 100vh;
+  width: 100%;
   margin: 0px;
 }
 .App{
@@ -45,13 +46,76 @@ h1 {
 
 button {
   font-family: 'Reenie Beanie', cursive;
-  font-size: 20px;
+  font-size: 25px;
   align-self: center;
   color: #8D8997;
   background-color: #252525;
   border-color: black;
 }
 
-.Home-aside {
-  color: white;
+nav {
+  display: flex;
+}
+
+.Album-aside {
+  display: flex;
+  font-size: 20px;
+}
+
+.Album-aside li {
+  left: 0px;
+  list-style: none;
+  padding-bottom: 3em;
+  padding-right: 3em;
+}
+
+.Album-aside ul {
+  padding-left: 0px;
+}
+
+.Album-aside button {
+  border-radius: 8px;
+}
+
+.Album-container {
+  display: flex;
+  flex-grow: 2;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Album-image {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/makeup.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Album-image2 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/brains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Album-image3 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/crazy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.BIGBOX {
+  display: flex;
+  justify-content: space-between;
 }

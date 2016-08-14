@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import smile from './pics/smile.gif'
 import './App.css'
 
 class SinglePic extends Component {
@@ -11,7 +10,7 @@ class SinglePic extends Component {
         </div>
         <div className='App-container'>
           <div className='App-image'></div>
-          <button className='App-button'>↫ Go Back</button>
+          <button className='App-button' onClick={this.navigateToAlbum}>↫ Go Back</button>
         </div>
       </div>
     )
