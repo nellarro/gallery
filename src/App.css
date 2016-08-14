@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: inherit;
   width: 100%;
   margin: 0px;
 }
@@ -115,7 +115,127 @@ nav {
   width: 300px;
 }
 
-.BIGBOX {
+.BIGBOX, .Box, .Best-box {
   display: flex;
   justify-content: space-between;
+}
+
+.Puddin-container {
+  display: flex;
+  flex-grow: 2;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Puddin-image2 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/Joker.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Puddin-image {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/puddin.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Puddin-image3 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/silly.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Puddin-image4 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/perfect.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Puddin-image5 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/cuties.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Puddin-image5, p {
+  font-family: 'Homemade Apple', cursive;
+  color: #580000;
+  font-weight: bold;
+  font-size: large;
+  text-shadow:
+    1px 0px 1px white, 0px 1px 1px #eee,
+    2px 1px 1px white, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee;
+}
+
+.Puddin-signature {
+  text-align: right;
+}
+
+.Best-image2 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/Joker.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Best-image {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/puddin.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Best-image3 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/silly.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Best-image4 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/perfect.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
 }

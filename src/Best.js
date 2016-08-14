@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import './App.css'
 
-class Puddin extends Component {
+class Best extends Component {
   render () {
     return (
       <div>
         <div className='Album-header'>
-          <h1>Puddin'</h1>
+          <h1>Besties!</h1>
         </div>
-        <div className='Box'>
+        <div className='Best-box'>
         <div className='Album-nav'>
           <aside className='Album-aside'>
             <nav>
@@ -23,18 +23,14 @@ class Puddin extends Component {
             </nav>
           </aside>
           </div>
-          <div className='Puddin-container'>
-            <div className='Puddin-image'>
+          <div className='Best-container'>
+            <div className='Best-image'>
             </div>
-            <div className='Puddin-image2'>
+            <div className='Best-image2'>
             </div>
-            <div className='Puddin-image3'>
+            <div className='Best-image3'>
             </div>
-            <div className='Puddin-image4'>
-            </div>
-            <div className='Puddin-image5'>
-              <p>I drew this! HaHahAHa! No, I didn't. Some peabrain did.</p>
-              <p className='Puddin-signature'>-Harley</p>
+            <div className='Best-image4'>
             </div>
           </div>
           </div>
@@ -43,4 +39,4 @@ class Puddin extends Component {
   }
 }
 
-export default Puddin
+export default Best
