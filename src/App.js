@@ -5,12 +5,13 @@ import Album from './Album'
 import Puddin from './Puddin'
 import Best from './Best'
 import Fun from './Fun'
+import Work from './Work'
 
 class App extends Component {
   constructor () {
     super()
     this.state = {
-      currentScreen: 'Fun'
+      currentScreen: 'Work'
     }
   }
   render () {
@@ -26,6 +27,7 @@ class App extends Component {
         break
       case 'Fun': screen = <Fun />
         break
+      case 'Work': screen = <Work />
     }
     return (
       <div>{screen}</div>

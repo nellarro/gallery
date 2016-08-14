@@ -117,12 +117,12 @@ nav {
   width: 300px;
 }
 
-.BIGBOX, .Box, .Best-box, .Fun-box {
+.BIGBOX, .Box, .Best-box, .Fun-box, .Work-box {
   display: flex;
   justify-content: space-between;
 }
 
-.Puddin-container, .Best-container, .Fun-container{
+.Puddin-container, .Best-container, .Fun-container, .Work-container{
   display: flex;
   flex-grow: 2;
   justify-content: space-between;
@@ -279,7 +279,18 @@ nav {
 .Fun-image {
   border: 2px solid #580000;
   border-radius: 8px;
-  background-image: url(./pics/dreams.jpg);
+  background-image: url(./pics/smile.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Fun-image5 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/nomakeup.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -290,7 +301,62 @@ nav {
 .Fun-image3 {
   border: 2px solid #580000;
   border-radius: 8px;
-  background-image: url(./pics/nomakeup.png);
+  background-image: url(./pics/roomies.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Fun-image4 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/loveher.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Work-image2 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/rich.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+}
+
+.Work-image {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/dreams.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Work-image3 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/cork.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Work-image4 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/puppies.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

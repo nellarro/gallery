@@ -6,7 +6,7 @@ class Fun extends Component {
     return (
       <div>
         <div className='Album-header'>
-          <h1>Fun & Games</h1>
+          <h1>Work...Sigh...</h1>
         </div>
         <div className='Fun-box'>
         <div className='Album-nav'>
@@ -23,16 +23,14 @@ class Fun extends Component {
             </nav>
           </aside>
           </div>
-          <div className='Fun-container'>
-            <div className='Fun-image'>
+          <div className='Work-container'>
+            <div className='Work-image'>
             </div>
-            <div className='Fun-image2'>
+            <div className='Work-image2'>
             </div>
-            <div className='Fun-image3'>
+            <div className='Work-image3'>
             </div>
-            <div className='Fun-image4'>
-            </div>
-            <div className='Fun-image5'>
+            <div className='Work-image4'>
             </div>
           </div>
         </div>
