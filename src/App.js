@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
-// import smile from './pics/smile.gif'
 import './App.css'
 import SinglePic from './SinglePic'
 import Album from './Album'
 import Puddin from './Puddin'
 import Best from './Best'
+import Fun from './Fun'
 
 class App extends Component {
   constructor () {
     super()
     this.state = {
-      currentScreen: 'Puddin'
+      currentScreen: 'Fun'
     }
   }
   render () {
@@ -23,6 +23,8 @@ class App extends Component {
       case 'Puddin': screen = <Puddin />
         break
       case 'Best': screen = <Best />
+        break
+      case 'Fun': screen = <Fun />
         break
     }
     return (

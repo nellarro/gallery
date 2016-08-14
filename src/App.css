@@ -7,11 +7,13 @@ body {
   width: 100%;
   margin: 0px;
 }
+
 .App{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .App-header {
   padding-bottom: 2em;
 }
@@ -115,12 +117,12 @@ nav {
   width: 300px;
 }
 
-.BIGBOX, .Box, .Best-box {
+.BIGBOX, .Box, .Best-box, .Fun-box {
   display: flex;
   justify-content: space-between;
 }
 
-.Puddin-container {
+.Puddin-container, .Best-container, .Fun-container{
   display: flex;
   flex-grow: 2;
   justify-content: space-between;
@@ -200,9 +202,10 @@ nav {
 .Best-image2 {
   border: 2px solid #580000;
   border-radius: 8px;
-  background-image: url(./pics/Joker.jpg);
+  background-image: url(./pics/mugshots.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 300px;
   width: 300px;
 }
@@ -210,7 +213,7 @@ nav {
 .Best-image {
   border: 2px solid #580000;
   border-radius: 8px;
-  background-image: url(./pics/puddin.gif);
+  background-image: url(./pics/sirens.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -221,7 +224,7 @@ nav {
 .Best-image3 {
   border: 2px solid #580000;
   border-radius: 8px;
-  background-image: url(./pics/silly.jpg);
+  background-image: url(./pics/besties.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -232,7 +235,62 @@ nav {
 .Best-image4 {
   border: 2px solid #580000;
   border-radius: 8px;
-  background-image: url(./pics/perfect.gif);
+  background-image: url(./pics/canary.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Best-image5 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/catwoman.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Best-image6 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/catwoman2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Fun-image2 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/dance.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+}
+
+.Fun-image {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/dreams.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.Fun-image3 {
+  border: 2px solid #580000;
+  border-radius: 8px;
+  background-image: url(./pics/nomakeup.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

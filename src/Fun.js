@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import './App.css'
 
-class Best extends Component {
+class Fun extends Component {
   render () {
     return (
       <div>
         <div className='Album-header'>
-          <h1>Besties!</h1>
+          <h1>Fun & Games</h1>
         </div>
-        <div className='Best-box'>
+        <div className='Fun-box'>
         <div className='Album-nav'>
           <aside className='Album-aside'>
             <nav>
@@ -23,24 +23,17 @@ class Best extends Component {
             </nav>
           </aside>
           </div>
-          <div className='Best-container'>
-            <div className='Best-image'>
+          <div className='Fun-container'>
+            <div className='Fun-image'>
             </div>
-            <div className='Best-image2'>
+            <div className='Fun-image2'>
             </div>
-            <div className='Best-image3'>
+            <div className='Fun-image3'>
             </div>
-            <div className='Best-image4'>
-            </div>
-            <div className='Best-image5'>
-            </div>
-            <div className='Best-image6'>
-            </div>
-          </div>
           </div>
         </div>
-    )
+      </div>
+        )
   }
-}
-
-export default Best
+    }
+export default Fun
