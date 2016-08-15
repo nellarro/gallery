@@ -20,6 +20,9 @@ class Album extends Component {
   changeToWork = () => {
     this.props.navigate('Work')
   }
+  changeToAlbum = () => {
+    this.props.navigate('Album')
+  }
   render () {
     return (
       <div>
@@ -32,7 +35,7 @@ class Album extends Component {
           <aside className='Album-aside'>
             <nav>
               <ul>
-                <li><button>All About Me</button></li>
+                <li><button onClick={this.changeToAlbum}>All About Me</button></li>
                 <li><button onClick ={this.changeToPuddin}>Puddin'</button></li>
                 <li><button onClick={this.changeToBest}>Besties!</button></li>
                 <li><button onClick={this.changeToFun}>Fun</button></li>
