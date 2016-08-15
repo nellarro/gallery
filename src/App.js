@@ -11,17 +11,20 @@ class App extends Component {
   constructor () {
     super()
     this.state = {
-      currentScreen: 'SinglePic'
+      currentScreen: 'Album'
     }
+  }
+  navigateToPage = (scr) => {
+    this.setState({currentScreen: scr})
   }
   render () {
     let screen
     switch (this.state.currentScreen) {
-      case 'Album': screen = <Album />
+      case 'Album': screen = <Album navigate={this.navigateToPage} />
         break
       case 'SinglePic': screen = <SinglePic />
         break
-      case 'Puddin': screen = <Puddin />
+      case 'Puddin': screen = <Puddin navigate={this.navigateToPage} />
         break
       case 'Best': screen = <Best />
         break

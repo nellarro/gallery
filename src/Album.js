@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import './App.css'
 
 class Album extends Component {
+  changeToSinglePic = () => {
+    this.props.navigate('SinglePic')
+  }
   render () {
     return (
       <div>
@@ -29,7 +32,7 @@ class Album extends Component {
             </div>
             <div className='Album-image2'>
             </div>
-            <div className='Album-image3'>
+            <div onClick ={this.changeToSinglePic} className='Album-image3'>
             </div>
             <div className='Album-image4'>
             </div>

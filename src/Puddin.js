@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import './App.css'
 
 class Puddin extends Component {
+  changeBestView = () => {
+    this.props.navigate('Best')
+  }
+  changeAlbumView = () => {
+    this.props.navigate('Album')
+  }
   render () {
     return (
       <div>
@@ -13,9 +19,9 @@ class Puddin extends Component {
           <aside className='Album-aside'>
             <nav>
               <ul>
-                <li><button>All About Me</button></li>
+                <li><button onClick={this.changeAlbumView}>All About Me</button></li>
                 <li><button>Puddin'</button></li>
-                <li><button>Besties!</button></li>
+                <li><button onClick={this.changeBestView}>Besties!</button></li>s
                 <li><button>Fun</button></li>
                 <li><button>Work</button></li>
                 <li><button> Misc.</button></li>
