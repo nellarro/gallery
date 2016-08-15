@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
+import Error from './Error'
 import SinglePic from './SinglePic'
 import Album from './Album'
 import Puddin from './Puddin'
@@ -11,7 +12,7 @@ class App extends Component {
   constructor () {
     super()
     this.state = {
-      currentScreen: 'Album'
+      currentScreen: 'Error'
     }
   }
   navigateToPage = (scr) => {
@@ -31,6 +32,8 @@ class App extends Component {
       case 'Fun': screen = <Fun />
         break
       case 'Work': screen = <Work />
+        break
+      case 'Error': screen = <Error />
     }
     return (
       <div>{screen}</div>

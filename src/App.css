@@ -184,7 +184,7 @@ nav {
   width: 300px;
 }
 
-.Puddin-image5, p {
+.Puddin-image5, {
   font-family: 'Homemade Apple', cursive;
   color: #580000;
   font-weight: bold;
@@ -362,4 +362,35 @@ nav {
   background-size: cover;
   height: 300px;
   width: 300px;
+}
+
+.Error-fullPage {
+  background-image: url(./pics/lightbulb.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.Error-box {
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Bangers', cursive;
+  color:  #580000;
+  font-size: 30px;
+}
+
+.Error-p1, .Error-p2 {
+  font-family: 'Reenie Beanie', cursive;
+  color: white;
+  font-size: 40px;
+}
+
+.Error-signature {
+  font-family: 'Homemade Apple', cursive;
+  text-align: right;
+  font-size: 50px;
 }

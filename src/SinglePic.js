@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import './App.css'
 
 class SinglePic extends Component {
+  changeToAlbum = () => {
+    this.props.navigate('Album')
+  }
   render () {
     return (
       <div className='App'>
