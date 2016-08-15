@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   margin: 0px;
 }
@@ -184,7 +184,7 @@ nav {
   width: 300px;
 }
 
-.Puddin-image5, {
+.Puddin-image5, .Puddin-paragraph {
   font-family: 'Homemade Apple', cursive;
   color: #580000;
   font-weight: bold;

@@ -12,7 +12,7 @@ class App extends Component {
   constructor () {
     super()
     this.state = {
-      currentScreen: 'Error'
+      currentScreen: 'Album'
     }
   }
   navigateToPage = (scr) => {
@@ -23,17 +23,19 @@ class App extends Component {
     switch (this.state.currentScreen) {
       case 'Album': screen = <Album navigate={this.navigateToPage} />
         break
-      case 'SinglePic': screen = <SinglePic />
+      case 'SinglePic': screen = <SinglePic navigate={this.navigateToPage} />
         break
       case 'Puddin': screen = <Puddin navigate={this.navigateToPage} />
         break
-      case 'Best': screen = <Best />
+      case 'Best': screen = <Best navigate={this.navigateToPage}/>
         break
-      case 'Fun': screen = <Fun />
+      case 'Fun': screen = <Fun navigate={this.navigateToPage} />
         break
-      case 'Work': screen = <Work />
+      case 'Work': screen = <Work navigate={this.navigateToPage}/>
         break
       case 'Error': screen = <Error />
+        break
+      default: screen = <Album navigate={this.navigateToPage}/>
     }
     return (
       <div>{screen}</div>
