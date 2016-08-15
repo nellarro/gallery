@@ -1,6 +1,6 @@
 {
   "name": "photo-gallery",
-  "homepage": "http://nellarro.github.io/photo-gallery",
+  "homepage": "https://nellarro.github.io/photo-gallery",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
