@@ -46,17 +46,13 @@ class Album extends Component {
           </aside>
           </div>
           <div className='Album-container'>
-            <div onClick={this.changeFour} className='Album-image'>
-            </div>
-            <div onClick={this.changeFour} className='Album-image2'>
-            </div>
-            <div onClick={this.changeToSinglePic} className='Album-image3'>
-            </div>
-            <div onClick={this.changeFour} className='Album-image4'>
-            </div>
-          </div>
+            <div onClick={this.changeFour} className='Album-image' />
+            <div onClick={this.changeFour} className='Album-image2' />
+            <div onClick={this.changeToSinglePic} className='Album-image3' />
+            <div onClick={this.changeFour} className='Album-image4' />
           </div>
         </div>
+      </div>
     )
   }
 }
