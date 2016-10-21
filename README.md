@@ -1,6 +1,7 @@
-# photo-gallery
+## photo-gallery
 http://nellarro.photogallery.surge.sh/
 
+#Harley's Epic Escape Gallery!
 
 This project was actually my very first dabbling into ReactJS.
 
