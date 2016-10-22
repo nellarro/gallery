@@ -11,4 +11,4 @@ I took this assignment to a whole new level. I gave it a theme.
 
 Harley has escaped from Arkham Asylum and of course, Batman is looking for her. She decides to post a photo gallery of her adventures and the fun she's had since her escape; however, she doesn't want Batman to know where she's located! Only one of the images gives Batman any clue of where she might be the others...well the others don't end very well for Batman. 
 
-This assignment uses **ReactJS, switch statements, create-react-app**
+This assignment uses **ReactJS, switch statements (JavaScript), create-react-app**
