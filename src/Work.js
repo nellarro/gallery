@@ -14,7 +14,7 @@ class Fun extends Component {
             <nav>
               <ul>
                 <li><button>All About Me</button></li>
-                <li><button>Puddin'></button></li>
+                <li><button>Puddin'</button></li>
                 <li><button>Besties!</button></li>
                 <li><button>Fun</button></li>
                 <li><button>Work</button></li>
