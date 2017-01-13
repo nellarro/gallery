@@ -19,7 +19,7 @@ class Puddin extends Component {
   }
   render () {
     return (
-      <div>
+      <div className="full">
         <div className='Album-header'>
           <h1>Puddin'</h1>
         </div>

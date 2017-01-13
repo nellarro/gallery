@@ -4,7 +4,7 @@ import './App.css'
 class Fun extends Component {
   render () {
     return (
-      <div>
+      <div className="full">
         <div className='Album-header'>
           <h1>Fun & Games</h1>
         </div>
